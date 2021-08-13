@@ -1,8 +1,11 @@
    /*HEADER*/
    
    .header-imagen {
-       background-color: #737B4C91;
-       height: 600px;
+       background: url("../img/portada.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 900px;
    }
    
    header {
@@ -15,24 +18,31 @@
    }
    
    header .menu {
-       width: 35%;
+       width: 50%;
        list-style: none;
        display: flex;
        justify-content: space-between;
+       align-items: baseline;
    }
    
    header .menu a {
        text-decoration: none;
        color: #E6E6E6;
+       font-size: 18px;
+       font-weight: 500;
+       text-shadow: 1px 1px 2px black;
    }
    
    .header-titulo {
        width: 55%;
-       margin-top: 7%;
+       margin-top: 9%;
        margin-left: 4%;
    }
    
    .header-titulo p {
+       font-family: 'Poppins', sans-serif;
+       font-weight: 700;
        font-size: 70px;
        color: #E6E6E6;
+       text-shadow: 1px 1px 4px black;
    }
