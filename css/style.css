@@ -6,6 +6,17 @@
        background-repeat: no-repeat;
        background-size: cover;
        height: 900px;
+       position: relative;
+   }
+   
+   .header-imagen:before {
+       content: '';
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       background-color: rgba(0, 0, 0, 0.4);
    }
    
    header {
@@ -23,6 +34,7 @@
        display: flex;
        justify-content: space-between;
        align-items: baseline;
+       z-index: 2;
    }
    
    header .menu a {
@@ -31,6 +43,7 @@
        font-size: 18px;
        font-weight: 500;
        text-shadow: 1px 1px 2px black;
+       position: relative;
    }
    
    .header-titulo {
@@ -45,4 +58,5 @@
        font-size: 70px;
        color: #E6E6E6;
        text-shadow: 1px 1px 4px black;
+       position: relative;
    }
