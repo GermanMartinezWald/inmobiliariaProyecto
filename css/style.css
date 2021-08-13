@@ -1,0 +1,38 @@
+   /*HEADER*/
+   
+   .header-imagen {
+       background-color: #737B4C91;
+       height: 600px;
+   }
+   
+   header {
+       padding-top: 2em;
+       padding-left: 2em;
+       padding-right: 2em;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   header .menu {
+       width: 35%;
+       list-style: none;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   header .menu a {
+       text-decoration: none;
+       color: #E6E6E6;
+   }
+   
+   .header-titulo {
+       width: 55%;
+       margin-top: 7%;
+       margin-left: 4%;
+   }
+   
+   .header-titulo p {
+       font-size: 70px;
+       color: #E6E6E6;
+   }
