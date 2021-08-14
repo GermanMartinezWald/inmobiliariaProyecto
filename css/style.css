@@ -1,62 +1,170 @@
-   /*HEADER*/
-   
-   .header-imagen {
-       background: url("../img/portada.jpg");
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-       height: 900px;
-       position: relative;
-   }
-   
-   .header-imagen:before {
-       content: '';
-       position: absolute;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
-       background-color: rgba(0, 0, 0, 0.4);
-   }
-   
-   header {
-       padding-top: 2em;
-       padding-left: 2em;
-       padding-right: 2em;
-       width: 100%;
-       display: flex;
-       justify-content: space-between;
-   }
-   
-   header .menu {
-       width: 50%;
-       list-style: none;
-       display: flex;
-       justify-content: space-between;
-       align-items: baseline;
-       z-index: 2;
-   }
-   
-   header .menu a {
-       text-decoration: none;
-       color: #E6E6E6;
-       font-size: 18px;
-       font-weight: 500;
-       text-shadow: 1px 1px 2px black;
-       position: relative;
-   }
-   
-   .header-titulo {
-       width: 55%;
-       margin-top: 9%;
-       margin-left: 4%;
-   }
-   
-   .header-titulo p {
-       font-family: 'Poppins', sans-serif;
-       font-weight: 700;
-       font-size: 70px;
-       color: #E6E6E6;
-       text-shadow: 1px 1px 4px black;
-       position: relative;
-   }
+/*HEADER*/
+
+.header-imagen {
+    background: url("../img/portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+}
+
+.header-imagen:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    width: 45%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 2;
+}
+
+header .menu .btn {
+    width: 130px;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #E6E6E6;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+}
+
+.header-titulo {
+    width: 55%;
+    margin-top: 15%;
+    margin-left: 4%;
+}
+
+.header-titulo p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #E6E6E6;
+    text-shadow: 1px 1px 4px black;
+    position: relative;
+    z-index: 2;
+}
+
+.linea-verde {
+    width: 310px;
+    height: 30px;
+    background-color: #737B4C;
+    position: absolute;
+    left: 32.5%;
+    top: 50.5%;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+/*SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
+
+.seccion3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-seccion-3 {
+    margin-left: 30%;
+}
+
+.casas {
+    background-image: url("../img/casas.jpg");
+}
+
+.departamentos {
+    background-image: url("../img/departamentos.jpg");
+}
+
+.oficinas {
+    background-image: url("../img/oficinas.jpg");
+}
+
+.comercial {
+    background-image: url("../img/comercios.jpg");
+}
+
+.terrenos {
+    background-image: url("../img/terrenos.jpg");
+}
+
+.industrial {
+    background-image: url("../img/industrial.jpg");
+}
+
+.oficinas,
+.departamentos,
+.comercial,
+.casas,
+.terrenos,
+.industrial {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+
+.oficinas::before,
+.departamentos::before,
+.comercial::before,
+.casas::before,
+.terrenos:before,
+.industrial::before {
+    content: '';
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.columna2,
+.columna1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #E6E6E6;
+    text-shadow: 1px 1px 2px black;
+}
+
+.columna1>div {
+    margin-left: 120px;
+}
+
+.columna2>div,
+.columna1>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+}
+
+.columna2>div>p,
+.columna1>div>p {
+    position: relative;
+}
