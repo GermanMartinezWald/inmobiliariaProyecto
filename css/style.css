@@ -66,7 +66,7 @@ header .menu a {
     z-index: 2;
 }
 
-.linea-verde {
+.subrayado-header {
     width: 310px;
     height: 30px;
     background-color: #737B4C;
@@ -75,6 +75,9 @@ header .menu a {
     top: 50.5%;
     box-shadow: 1px 1px 4px black;
 }
+
+
+/*FIN HEADER*/
 
 
 /*SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
@@ -87,6 +90,7 @@ header .menu a {
 
 .titulo-seccion-3 {
     margin-left: 18%;
+    text-shadow: 1px 1px 2px black;
     font-size: 50px;
     font-weight: 700;
     z-index: 10;
@@ -101,6 +105,15 @@ header .menu a {
     left: 45%;
     bottom: 39%;
     z-index: -1;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
 .casas {
@@ -135,10 +148,11 @@ header .menu a {
 .industrial {
     background-size: cover;
     background-position: center;
-    width: 80%;
+    width: 445px;
     height: 350px;
     border-radius: 30px;
     margin-top: 35px;
+    position: relative;
 }
 
 .oficinas::before,
@@ -157,30 +171,21 @@ header .menu a {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.columna2,
-.columna1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.container-img>div>p {
+    font-size: 45px;
+    font-weight: 700;
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
+    position: relative;
 }
 
-.columna1>div {
-    margin-left: 120px;
-}
-
-.columna2>div,
-.columna1>div {
+.container-img>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
-    font-weight: 700;
-    position: relative;
+    margin: 20px 10px;
+    box-shadow: 1px 2px 5px rgb(27, 25, 25);
 }
 
-.columna2>div>p,
-.columna1>div>p {
-    position: relative;
-}
+
+/*FIN SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
