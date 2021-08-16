@@ -84,7 +84,7 @@ header .menu a {
 
 .seccion3 {
     font-family: 'Poppins', sans-serif;
-    height: 200px;
+    height: auto;
     margin-top: 50px;
 }
 
@@ -189,3 +189,38 @@ header .menu a {
 
 
 /*FIN SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
+
+
+/*SECCION 5 - FORMULARIO*/
+
+.seccion-form {
+    background-color: #737B4C;
+}
+
+.sec-form-img {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-form {
+    width: 400px;
+}
+
+.texto-form {
+    width: 600px;
+    height: 300px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sec-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*FIN SECCION 5 - FORMULARIO*/
