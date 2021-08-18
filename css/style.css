@@ -27,27 +27,20 @@ header .logo-header {
     z-index: 2;
 }
 
-header .menu {
-    width: 45%;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    z-index: 2;
-    margin-top: 4em;
-    margin-right: 3%;
-}
-
 header .menu .btn {
     width: 130px;
 }
 
-header .menu a {
-    text-decoration: none;
-    color: #E6E6E6;
-    font-size: 18px;
-    font-weight: 500;
-    text-shadow: 1px 1px 2px black;
+.navegable {
+    background-color: transparent !important;
+}
+
+header .nav-link {
+    color: #E6E6E6 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-shadow: 1px 1px 2px black !important;
+    z-index: 2;
 }
 
 .caption {
@@ -65,7 +58,7 @@ header .menu a {
     width: 84%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4.4rem;
     color: #E6E6E6;
     text-shadow: 1px 1px 4px black;
     z-index: 3;
@@ -82,6 +75,10 @@ header .menu a {
     position: absolute;
     bottom: 9%;
     left: 40%;
+}
+
+.texto-empresa span {
+    display: none;
 }
 
 .subrayado-header-empresa {
@@ -515,7 +512,8 @@ header .menu a {
 /*SECCION 5 - FORMULARIO*/
 
 .seccion-form {
-    background-color: #737B4C;
+    background-color: rgba(115, 123, 76, 0.57);
+    height: 90vh;
 }
 
 .sec-form-img {
@@ -526,14 +524,18 @@ header .menu a {
 }
 
 .img-form {
-    width: 400px;
+    width: 70%;
+    margin-left: 23%;
+    position: relative;
+    bottom: 5%;
 }
 
 .texto-form {
-    width: 600px;
-    height: 300px;
-    font-size: 30px;
+    width: 85%;
+    font-size: 33px;
     font-weight: 700;
+    margin-left: 16%;
+    margin-top: 5%;
 }
 
 .sec-form {
@@ -543,5 +545,283 @@ header .menu a {
     align-items: center;
 }
 
+.sec-form input,
+.sec-form textarea {
+    width: 80%;
+    margin-top: 5%;
+    box-shadow: 1px 1px 4px rgb(34, 33, 33);
+}
+
+.sec-form input[type="submit"] {
+    width: 30%;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #D05A57;
+}
+
 
 /*FIN SECCION 5 - FORMULARIO*/
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1024px) {
+    /*HEADER*/
+    .header-titulo p {
+        width: 63%;
+        font-size: 2.4rem;
+    }
+    .subrayado-header-hogar {
+        width: 180px;
+        height: 15px;
+        position: absolute;
+        bottom: 9%;
+        left: 28%;
+    }
+    .subrayado-header-empresa {
+        width: 240px;
+        height: 15px;
+        position: absolute;
+        left: 21%;
+        bottom: 8%;
+    }
+    header .menu .btn {
+        width: 70px;
+        font-size: 12px;
+    }
+    header .nav-link {
+        font-size: 14px !important;
+    }
+    .navbar {
+        padding-top: 0 !important;
+    }
+    /*ENCONTRA TU PROPIEDAD*/
+    .titulo-seccion-3 {
+        margin-left: 18% !important;
+        font-size: 45px !important;
+    }
+    .subrayado-titulo-sec3 {
+        width: 380px !important;
+        height: 18px !important;
+        position: relative;
+        left: 47% !important;
+    }
+    .oficinas,
+    .departamentos,
+    .comercial,
+    .casas,
+    .terrenos,
+    .industrial {
+        border-radius: 10px !important;
+        height: 180px !important;
+        margin: 10px 5px !important;
+    }
+    .oficinas::before,
+    .departamentos::before,
+    .comercial::before,
+    .casas::before,
+    .terrenos:before,
+    .industrial::before {
+        border-radius: 10px !important;
+    }
+    /*Form*/
+    .seccion-form {
+        height: 80vh;
+    }
+    .sec-form {
+        margin-bottom: 4%;
+    }
+    .img-form {
+        width: 60%;
+    }
+    .texto-form {
+        width: 85%;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /*HEADER*/
+    .header-titulo p {
+        width: 63%;
+        font-size: 2rem;
+    }
+    .subrayado-header-hogar {
+        width: 140px;
+        height: 12px;
+        position: absolute;
+        bottom: 9%;
+        left: 31.5%;
+    }
+    .subrayado-header-empresa {
+        width: 190px;
+        height: 12px;
+        position: absolute;
+        left: 24%;
+        bottom: 8%;
+    }
+    header .menu .btn {
+        width: 70px;
+        font-size: 12px;
+    }
+    header .nav-link {
+        font-size: 14px !important;
+    }
+    /*ENCONTRA TU PROPIEDAD*/
+    .titulo-seccion-3 {
+        position: relative;
+        left: 22%;
+        width: 55%;
+        text-align: center;
+        margin-left: 0% !important;
+        font-size: 45px !important;
+    }
+    .subrayado-titulo-sec3 {
+        width: 380px !important;
+        height: 18px !important;
+        position: relative;
+        left: 22% !important;
+        bottom: 25% !important;
+    }
+    /*form*/
+    .seccion-form {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .carousel-cont {
+        position: relative;
+        bottom: 0%;
+    }
+    header {
+        background-color: #737B4C;
+        height: 75px;
+    }
+    .header-titulo {
+        position: relative;
+        left: 20%;
+        top: 0%;
+        bottom: 40%;
+    }
+    .header-titulo p {
+        width: 52% !important;
+        text-align: center;
+    }
+    /*SECCION 3*/
+    .texto-empresa span {
+        height: 0px;
+        display: block;
+    }
+    .titulo-seccion-3 {
+        width: 75%;
+        position: relative;
+        left: 13%;
+    }
+    .subrayado-titulo-sec3 {
+        position: relative;
+        left: 13% !important;
+    }
+    .subrayado-header-hogar {
+        width: 140px !important;
+        height: 12px;
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+    }
+    .subrayado-header-empresa {
+        width: 190px !important;
+        height: 12px;
+        position: absolute;
+        left: 5%;
+        bottom: 5%;
+    }
+    /*Form*/
+    .img-form {
+        display: none;
+    }
+    .seccion-form {
+        height: auto;
+    }
+    .texto-form {
+        margin-left: 9%;
+        text-align: center;
+        font-size: 25px;
+    }
+    @media only screen and (max-width: 320px) {
+        /*HEADER*/
+        header {
+            height: 50px !important;
+        }
+        .header-titulo {
+            position: relative !important;
+            left: 20%;
+            top: 0% !important;
+            bottom: 100% !important;
+        }
+        .header-titulo p {
+            font-size: 1.1rem !important;
+        }
+        .subrayado-header-hogar {
+            display: none;
+        }
+        .subrayado-header-empresa {
+            display: none;
+        }
+        /*SECCION 3 */
+        .titulo-seccion-3 {
+            position: relative;
+            left: 1% !important;
+            width: 100%;
+            font-size: 27px !important;
+            letter-spacing: 1px;
+        }
+        .subrayado-titulo-sec3 {
+            width: 270px !important;
+            height: 15px !important;
+            position: relative;
+            left: 4% !important;
+            bottom: 28% !important;
+        }
+        .oficinas,
+        .departamentos,
+        .comercial,
+        .casas,
+        .terrenos,
+        .industrial {
+            height: 160px !important;
+            width: 100%!important;
+        }
+        .container-img>div>p {
+            font-size: 2em !important;
+        }
+        /*Form*/
+        .texto-form {
+            height: auto !important;
+            width: 95% !important;
+            font-size: 17px !important;
+            text-align: center;
+            margin-left: 4%;
+            margin-top: 3%;
+            margin-bottom: 4%;
+        }
+        .img-form {
+            display: none !important;
+        }
+        .sec-form input[type="submit"] {
+            width: 75%;
+            height: 40px;
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+            background-color: #D05A57;
+        }
+        .espacio {
+            margin: 6% 2%;
+            box-shadow: 1px 1px 4px black;
+        }
+    }
+}
