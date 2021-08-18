@@ -1,31 +1,30 @@
 /*HEADER*/
 
-.header-imagen {
-    background: url("../img/portada.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
+.carousel-cont {
     position: relative;
+    bottom: 35%;
+    z-index: -1;
+    width: 100%;
 }
 
-.header-imagen:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+.carousel-cont img {
+    filter: brightness(70%);
 }
 
 header {
-    padding-top: 2em;
     padding-left: 2em;
     padding-right: 2em;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+header .logo-header {
+    width: 15%;
+    position: relative;
+    bottom: 7%;
+    left: 2%;
+    z-index: 2;
 }
 
 header .menu {
@@ -35,6 +34,8 @@ header .menu {
     justify-content: space-between;
     align-items: baseline;
     z-index: 2;
+    margin-top: 4em;
+    margin-right: 3%;
 }
 
 header .menu .btn {
@@ -47,33 +48,51 @@ header .menu a {
     font-size: 18px;
     font-weight: 500;
     text-shadow: 1px 1px 2px black;
+}
+
+.caption {
     position: relative;
+    top: 26%;
 }
 
 .header-titulo {
-    width: 55%;
-    margin-top: 15%;
-    margin-left: 4%;
+    position: relative;
+    right: 9%;
+    top: 30%;
 }
 
 .header-titulo p {
+    width: 84%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 70px;
     color: #E6E6E6;
     text-shadow: 1px 1px 4px black;
+    z-index: 3;
+    text-align: start;
     position: relative;
-    z-index: 2;
 }
 
-.subrayado-header {
+.subrayado-header-hogar {
     width: 310px;
     height: 30px;
     background-color: #737B4C;
-    position: absolute;
-    left: 32.5%;
-    top: 50.5%;
     box-shadow: 1px 1px 4px black;
+    z-index: 2;
+    position: absolute;
+    bottom: 9%;
+    left: 40%;
+}
+
+.subrayado-header-empresa {
+    width: 425px;
+    height: 30px;
+    background-color: #737B4C;
+    box-shadow: 1px 1px 4px black;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    bottom: 9%;
 }
 
 
