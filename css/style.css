@@ -992,3 +992,230 @@ header .nav-link {
         }
     }
 }
+
+
+/* INICIO FOOTER */
+.footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 160px;
+    padding: 70px 0px 50px 0px;
+    align-items: center;
+  }
+  
+  .footer__caja-logo {
+    width: 200px !important;
+    height: auto !important;
+
+  }
+  
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 15px;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: 1px solid #a1a53e;
+    border-right: 1px solid #a1a53e;
+  }
+  
+  .pie-de-pagina {
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 15px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* FIN FOOTER */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px !important;
+    padding: 0px;
+    align-items: center;
+  }
+
+  .footer__caja-logo {
+    width: 200px;
+    height: auto !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: none;
+    border-right: none;
+  }
+  .footer__menu {
+    margin: 20px 0px;
+    width: auto;
+  }
+  .footer__menu-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .pie-de-pagina {
+    color: white;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 14px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+    padding-bottom: 0px;
+    align-items: center;
+  }
+
+  .footer__caja-logo {
+    width: 200px !important;
+    height: auto !important;
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 11px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 11px;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: none;
+    border-right: none;
+  }
+  .footer__menu {
+    margin: 20px 0px;
+    width: auto;
+  }
+  .footer__menu-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+  }
+
+  .pie-de-pagina {
+    color: white;
+    font-size: 11px;
+    margin: 5px 0px 103px 0px;
+    padding-bottom: 60px !important;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 11px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .barrafooter {
+    height: 5px;
+    border-radius: 140px;
+    background-color: rgb(29, 35, 38) !important;
+    margin-bottom: 10px;
+  }
+}
+/*  FIN MEDIAQUERIE CELULAR FOOTER */
