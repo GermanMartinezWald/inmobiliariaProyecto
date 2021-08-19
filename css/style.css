@@ -108,13 +108,13 @@ header .nav-link {
         font-family: 'Poppins', sans-serif;
         font-size: 35px;
         line-height: 33px;
-        margin-top: 15px;
+        margin-top: 25px;
     }
     
     .p-seccion2{
         color: #fff;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 21px;
         text-align: center;
         margin-top: 30px;
@@ -167,235 +167,235 @@ header .nav-link {
     .img-tablets{
         display: none;
     }
+}
+    
+@media (min-width: 668px) and (max-width: 991px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 350px;
     }
     
-    @media (min-width: 668px) and (max-width: 991px){
-        .seccion-2{
-            background-color: #737B4C91;
-            height: 350px;
-        }
-        
-        .h2-seccion2{
-            color: #000;
-            font-family: 'Poppins', sans-serif;
-            font-size: 35px;
-            line-height: 33px;
-            margin-top: 15px;
-        }
-        
-        .p-seccion2{
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            line-height: 21px;
-            text-align: center;
-            margin-top: 30px;
-        }
-        
-        .botones {
-            font-size: 20px !important;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            background-color: #D05A57 !important;
-            color: white !important;
-            outline: none !important;
-            border-radius: 6px;
-            width: 223px !important;
-            height: 46px !important;
-            box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
-        }
-        
-        .botones:hover {
-        background-color: white !important;
-        color: #D05A57 !important;
-        border: 1px solid #D05A57;
-        }
-        
-        .botones:active {
-        background-color: white !important;
-        color: #D05A57 !important;
-        }
-        
-        .botones:focus {
+    .h2-seccion2{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        line-height: 33px;
+        margin-top: 15px;
+    }
+    
+    .p-seccion2{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .botones {
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #D05A57 !important;
+        color: white !important;
         outline: none !important;
-        box-shadow: none !important;
-        }
-        
-        .boton-seccion2{
-            display: flex;
-            justify-content: center;
-        }
-        
-        .img-seccion2{
-            display: flex;
-            justify-content: center;
-            margin-top: -135px;
-            
-        }
-        
-        .img-desktop{
-            display: none;
-        }
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+    }
     
-        .img-tablets{
-            display: none;
-        }
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-seccion2{
+        display: flex;
+        justify-content: center;
+        margin-top: -135px;
         
     }
     
-    @media (min-width: 992px) and (max-width: 1200px){
-        .seccion-2{
-            background-color: #737B4C91;
-            height: 300px;
-        }
-        
-        .h2-seccion2{
-            color: #000;
-            font-family: 'Poppins', sans-serif;
-            font-size: 40px;
-            line-height: 40px;
-            margin-top: 15px;
-            margin-left: 40px;
-        }
-        
-        .p-seccion2{
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            line-height: 21px;
-            text-align: left;
-            margin-top: 30px;
-            margin-left: 40px;
-            width: 100%;
-        }
-        
-        .botones {
-            font-size: 20px !important;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-left: 40px;
-            background-color: #D05A57 !important;
-            color: white !important;
-            outline: none !important;
-            border-radius: 6px;
-            width: 223px !important;
-            height: 46px !important;
-            box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
-        }
-        
-        .botones:hover {
-        background-color: white !important;
-        color: #D05A57 !important;
-        border: 1px solid #D05A57;
-        }
-        
-        .botones:active {
-        background-color: white !important;
-        color: #D05A57 !important;
-        }
-        
-        .botones:focus {
+    .img-desktop{
+        display: none;
+    }
+
+    .img-tablets{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 300px;
+    }
+    
+    .h2-seccion2{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    
+    .p-seccion2{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 100%;
+    }
+    
+    .botones {
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        background-color: #D05A57 !important;
+        color: white !important;
         outline: none !important;
-        box-shadow: none !important;
-        }
-        
-        .boton-seccion2{
-            display: flex;
-            justify-content: left;
-        }
-        
-        .img-seccion2{
-            display: flex;
-            justify-content: center;
-            margin-top: 120px;
-        }
-    
-        .img-mobile{
-            display: none;
-        }
-    
-        .img-desktop{
-            display: none;
-        }
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
     }
     
-    @media (min-width: 1201px){
-        .seccion-2{
-            background-color: #737B4C91;
-            height: 400px;
-        }
-        
-        .h2-seccion2{
-            color: #000;
-            font-family: 'Poppins', sans-serif;
-            font-size: 60px;
-            line-height: 60px;
-            margin-top: 15px;
-            margin-left: 80px;
-        }
-        
-        .p-seccion2{
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            line-height: 21px;
-            text-align: left;
-            margin-top: 30px;
-            margin-left: 80px;
-            width: 80%;
-        }
-        
-        .botones {
-            font-size: 20px !important;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-left: 80px;
-            background-color: #D05A57 !important;
-            color: white !important;
-            outline: none !important;
-            border-radius: 6px;
-            width: 223px !important;
-            height: 46px !important;
-            box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
-        }
-        
-        .botones:hover {
-        background-color: white !important;
-        color: #D05A57 !important;
-        border: 1px solid #D05A57;
-        }
-        
-        .botones:active {
-        background-color: white !important;
-        color: #D05A57 !important;
-        }
-        
-        .botones:focus {
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .img-seccion2{
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+    }
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+}
+    
+@media (min-width: 1201px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 400px;
+    }
+    
+    .h2-seccion2{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    
+    .p-seccion2{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 80%;
+    }
+    
+    .botones {
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        background-color: #D05A57 !important;
+        color: white !important;
         outline: none !important;
-        box-shadow: none !important;
-        }
-        
-        .boton-seccion2{
-            display: flex;
-            justify-content: left;
-        }
-        
-        .img-seccion2{
-            display: flex;
-            justify-content: center;
-            margin-top: 165px;
-        }
-    
-        .img-mobile{
-            display: none;
-        }
-    
-        .img-tablets{
-            display: none;
-        }
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
     }
     
-    /* Fin Seccion 2 "Queres hacer una llamada rapida?" */
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .img-seccion2{
+        display: flex;
+        justify-content: center;
+        margin-top: 165px;
+    }
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-tablets{
+        display: none;
+    }
+}
+    
+/* Fin Seccion 2 "Queres hacer una llamada rapida?" */
 
 
 /*SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
@@ -508,6 +508,173 @@ header .nav-link {
 
 /*FIN SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
 
+/* Seccion 4 "Parques industriales que comercializamos" */
+@media (min-width: 320px) and (max-width: 920px){
+    .h2-parques{
+        display: none;
+    }
+
+    .h2-parques-mobile{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 34px;
+        margin-top: 50px;
+    }
+
+    .seccion-parques-desktop{
+        display: none;
+    }
+
+    .seccion-parques-mobile{
+        background-color: #373A36;
+        margin-top: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+    }
+
+    .img-mobile{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .subtit-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    
+    .parrafo-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .boton-parques {
+        font-size: 16px !important;
+        margin-top: 2px;
+        margin-bottom: 20px;
+        background-color: #D05A57 !important;
+        color: white !important;
+        outline: none !important;
+        border-radius: 6px;
+        width: 130px !important;
+        height: 40px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .boton-parques:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .boton-parques:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .boton-parques:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+
+    .centrado-boton{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 921px){
+    .seccion-parques-mobile{
+        display: none;
+    }
+    
+    .h2-parques-mobile{
+        display: none;
+    } 
+
+
+    .h2-parques{
+        text-decoration: underline;
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        line-height: 60px;
+        margin-top: 50px;
+    }
+    
+    .seccion-parques-desktop{
+        border-radius: 10px;
+        background-color: #373A36;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        margin-top: 20px;
+    }
+    
+    .img-parques{
+        border-radius: 10px;
+    }
+    
+    .subtit-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+    }
+    
+    .parrafo-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        margin-right: 15%;
+        margin-top: 20px;
+    }
+    
+    .img-fondo{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .boton-parques {
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #D05A57 !important;
+        color: white !important;
+        outline: none !important;
+        border-radius: 6px;
+        width: 130px !important;
+        height: 44px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .boton-parques:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .boton-parques:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .boton-parques:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+}
+
+/* Fin Seccion 4 "Parques industriales que comercializamos" */
 
 /*SECCION 5 - FORMULARIO*/
 
