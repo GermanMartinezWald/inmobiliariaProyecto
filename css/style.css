@@ -108,12 +108,12 @@ header .nav-link {
         font-family: 'Poppins', sans-serif;
         font-size: 35px;
         line-height: 33px;
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .p-seccion2 {
         color: #fff;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 21px;
         text-align: center;
         margin-top: 30px;
@@ -159,6 +159,7 @@ header .nav-link {
         display: none;
     }
 }
+<<<<<<< HEAD
 
 @media (min-width: 668px) and (max-width: 991px) {
     .seccion-2 {
@@ -166,13 +167,28 @@ header .nav-link {
         height: 350px;
     }
     .h2-seccion2 {
+=======
+    
+@media (min-width: 668px) and (max-width: 991px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 350px;
+    }
+    
+    .h2-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #000;
         font-family: 'Poppins', sans-serif;
         font-size: 35px;
         line-height: 33px;
         margin-top: 15px;
     }
+<<<<<<< HEAD
     .p-seccion2 {
+=======
+    
+    .p-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #fff;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
@@ -180,12 +196,17 @@ header .nav-link {
         text-align: center;
         margin-top: 30px;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
     .botones {
         font-size: 20px !important;
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #D05A57 !important;
         color: white !important;
+<<<<<<< HEAD
         outline: none !important;
         border-radius: 6px;
         width: 223px !important;
@@ -228,6 +249,60 @@ header .nav-link {
         height: 300px;
     }
     .h2-seccion2 {
+=======
+        outline: none !important;
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+    }
+    
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-seccion2{
+        display: flex;
+        justify-content: center;
+        margin-top: -135px;
+        
+    }
+    
+    .img-desktop{
+        display: none;
+    }
+
+    .img-tablets{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 300px;
+    }
+    
+    .h2-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #000;
         font-family: 'Poppins', sans-serif;
         font-size: 40px;
@@ -235,7 +310,12 @@ header .nav-link {
         margin-top: 15px;
         margin-left: 40px;
     }
+<<<<<<< HEAD
     .p-seccion2 {
+=======
+    
+    .p-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #fff;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
@@ -245,6 +325,10 @@ header .nav-link {
         margin-left: 40px;
         width: 100%;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
     .botones {
         font-size: 20px !important;
         margin-top: 20px;
@@ -252,6 +336,7 @@ header .nav-link {
         margin-left: 40px;
         background-color: #D05A57 !important;
         color: white !important;
+<<<<<<< HEAD
         outline: none !important;
         border-radius: 6px;
         width: 223px !important;
@@ -276,10 +361,42 @@ header .nav-link {
         justify-content: left;
     }
     .img-seccion2 {
+=======
+        outline: none !important;
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+    }
+    
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .img-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         display: flex;
         justify-content: center;
         margin-top: 120px;
     }
+<<<<<<< HEAD
     .img-mobile {
         display: none;
     }
@@ -294,6 +411,25 @@ header .nav-link {
         height: 400px;
     }
     .h2-seccion2 {
+=======
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+}
+    
+@media (min-width: 1201px){
+    .seccion-2{
+        background-color: #737B4C91;
+        height: 400px;
+    }
+    
+    .h2-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #000;
         font-family: 'Poppins', sans-serif;
         font-size: 60px;
@@ -301,7 +437,12 @@ header .nav-link {
         margin-top: 15px;
         margin-left: 80px;
     }
+<<<<<<< HEAD
     .p-seccion2 {
+=======
+    
+    .p-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         color: #fff;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
@@ -311,6 +452,10 @@ header .nav-link {
         margin-left: 80px;
         width: 80%;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
     .botones {
         font-size: 20px !important;
         margin-top: 20px;
@@ -318,6 +463,7 @@ header .nav-link {
         margin-left: 80px;
         background-color: #D05A57 !important;
         color: white !important;
+<<<<<<< HEAD
         outline: none !important;
         border-radius: 6px;
         width: 223px !important;
@@ -342,10 +488,42 @@ header .nav-link {
         justify-content: left;
     }
     .img-seccion2 {
+=======
+        outline: none !important;
+        border-radius: 6px;
+        width: 223px !important;
+        height: 46px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+    }
+    
+    .botones:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .botones:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .botones:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+    .boton-seccion2{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .img-seccion2{
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
         display: flex;
         justify-content: center;
         margin-top: 165px;
     }
+<<<<<<< HEAD
     .img-mobile {
         display: none;
     }
@@ -355,6 +533,18 @@ header .nav-link {
 }
 
 
+=======
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-tablets{
+        display: none;
+    }
+}
+    
+>>>>>>> e2ad029e5dfe8ea6adca3eefb3faeca08e230505
 /* Fin Seccion 2 "Queres hacer una llamada rapida?" */
 
 
@@ -468,6 +658,173 @@ header .nav-link {
 
 /*FIN SECCION 3 "ENCONTRA TU PROPIEDAD IDEAL"*/
 
+/* Seccion 4 "Parques industriales que comercializamos" */
+@media (min-width: 320px) and (max-width: 920px){
+    .h2-parques{
+        display: none;
+    }
+
+    .h2-parques-mobile{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 34px;
+        margin-top: 50px;
+    }
+
+    .seccion-parques-desktop{
+        display: none;
+    }
+
+    .seccion-parques-mobile{
+        background-color: #373A36;
+        margin-top: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+    }
+
+    .img-mobile{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .subtit-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    
+    .parrafo-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .boton-parques {
+        font-size: 16px !important;
+        margin-top: 2px;
+        margin-bottom: 20px;
+        background-color: #D05A57 !important;
+        color: white !important;
+        outline: none !important;
+        border-radius: 6px;
+        width: 130px !important;
+        height: 40px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .boton-parques:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .boton-parques:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .boton-parques:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+
+    .centrado-boton{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 921px){
+    .seccion-parques-mobile{
+        display: none;
+    }
+    
+    .h2-parques-mobile{
+        display: none;
+    } 
+
+
+    .h2-parques{
+        text-decoration: underline;
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        line-height: 60px;
+        margin-top: 50px;
+    }
+    
+    .seccion-parques-desktop{
+        border-radius: 10px;
+        background-color: #373A36;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        margin-top: 20px;
+    }
+    
+    .img-parques{
+        border-radius: 10px;
+    }
+    
+    .subtit-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+    }
+    
+    .parrafo-parques{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        margin-right: 15%;
+        margin-top: 20px;
+    }
+    
+    .img-fondo{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .boton-parques {
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #D05A57 !important;
+        color: white !important;
+        outline: none !important;
+        border-radius: 6px;
+        width: 130px !important;
+        height: 44px !important;
+        box-shadow:  0px 5px 0px rgb(0, 0, 0, 0.25);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .boton-parques:hover {
+    background-color: white !important;
+    color: #D05A57 !important;
+    border: 1px solid #D05A57;
+    }
+    
+    .boton-parques:active {
+    background-color: white !important;
+    color: #D05A57 !important;
+    }
+    
+    .boton-parques:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    
+}
+
+/* Fin Seccion 4 "Parques industriales que comercializamos" */
 
 /*SECCION 5 - FORMULARIO*/
 
@@ -788,3 +1145,230 @@ header .nav-link {
         }
     }
 }
+
+
+/* INICIO FOOTER */
+.footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 160px;
+    padding: 70px 0px 50px 0px;
+    align-items: center;
+  }
+  
+  .footer__caja-logo {
+    width: 200px !important;
+    height: auto !important;
+
+  }
+  
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 15px;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: 1px solid #a1a53e;
+    border-right: 1px solid #a1a53e;
+  }
+  
+  .pie-de-pagina {
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 15px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* FIN FOOTER */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px !important;
+    padding: 0px;
+    align-items: center;
+  }
+
+  .footer__caja-logo {
+    width: 200px;
+    height: auto !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: none;
+    border-right: none;
+  }
+  .footer__menu {
+    margin: 20px 0px;
+    width: auto;
+  }
+  .footer__menu-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .pie-de-pagina {
+    color: white;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 14px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    background-color: #1d2326;
+    padding-bottom: 0px;
+  }
+  .footer__caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+    padding-bottom: 0px;
+    align-items: center;
+  }
+
+  .footer__caja-logo {
+    width: 200px !important;
+    height: auto !important;
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+
+  .caja-footer-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__caja-telefono {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 11px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer__caja-telefono-a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 11px;
+  }
+  .footer__caja-telefono-a:hover {
+    color: white;
+  }
+  .footer-caja-central {
+    border-left: none;
+    border-right: none;
+  }
+  .footer__menu {
+    margin: 20px 0px;
+    width: auto;
+  }
+  .footer__menu-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+  }
+
+  .pie-de-pagina {
+    color: white;
+    font-size: 11px;
+    margin: 5px 0px 103px 0px;
+    padding-bottom: 60px !important;
+  }
+  .krak {
+    text-decoration: none;
+    color: #a1a53e !important;
+    font-size: 11px;
+  }
+  .krak:hover {
+    text-decoration: none;
+  }
+  .final-letra:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .barrafooter {
+    height: 5px;
+    border-radius: 140px;
+    background-color: rgb(29, 35, 38) !important;
+    margin-bottom: 10px;
+  }
+}
+/*  FIN MEDIAQUERIE CELULAR FOOTER */
