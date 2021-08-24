@@ -808,6 +808,10 @@ header .menu .btn-inicio {
     .bg-menu {
         background-color: #383A37;
     }
+    .navbar-collapse {
+        width: 100%;
+        background-color: #383A37;
+    }
     .navbar-toggler:focus,
     .navbar-toggler:active {
         outline: none !important;
