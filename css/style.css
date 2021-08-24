@@ -12,6 +12,7 @@
     font-style: normal;
 }
 
+
 /*HEADER*/
 
 .carrusel-mob {
@@ -522,21 +523,17 @@ header .menu .btn-inicio {
     .h2-parques {
         display: none;
     }
-
     .seccion-parques-desktop {
         display: none;
     }
-
-    .centrado-parquesindustriales{
+    .centrado-parquesindustriales {
         display: flex;
         justify-content: center;
     }
-
-   .img-parquesindustriales{
-       width: 70%;
-       margin-top: 15%;
-   }
-
+    .img-parquesindustriales {
+        width: 70%;
+        margin-top: 15%;
+    }
     .seccion-parques-mobile {
         background-color: #373A36;
         margin-left: 5%;
@@ -601,17 +598,14 @@ header .menu .btn-inicio {
     .h2-parques-mobile {
         display: none;
     }
-
-    .centrado-parquesindustriales{
+    .centrado-parquesindustriales {
         display: flex;
         justify-content: center;
     }
-
-   .img-parquesindustriales{
-       width: 60%;
-       margin-top: 15%;
-   }
- 
+    .img-parquesindustriales {
+        width: 60%;
+        margin-top: 15%;
+    }
     .seccion-parques-desktop {
         border-radius: 10px;
         background-color: #373A36;
@@ -621,7 +615,6 @@ header .menu .btn-inicio {
         margin-top: -3%;
         margin-bottom: 15%;
     }
-    
     .img-parques {
         border-radius: 10px;
     }
@@ -799,11 +792,7 @@ header .menu .btn-inicio {
 @media (min-width: 320px) and (max-width: 667px) {
     .menu-mobile {
         position: fixed;
-<<<<<<< HEAD
-        z-index: 1;
-=======
         z-index: 5;
->>>>>>> dda6c4d4332d24246e8696d1b1ae92c96fda4ebc
     }
     .carousel-cont {
         position: relative;
@@ -903,6 +892,9 @@ header .menu .btn-inicio {
 
 @media only screen and (max-width: 320px) {
     /*HEADER*/
+    .logo-navbar {
+        width: 130px;
+    }
     .carrusel-desk {
         display: none;
     }
@@ -1193,5 +1185,6 @@ header .menu .btn-inicio {
         margin-bottom: 10px;
     }
 }
+
 
 /* FIN FOOTER */
