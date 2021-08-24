@@ -350,9 +350,9 @@ header .menu .btn-inicio {
 }
 
 .container-titulo-sec3>img {
-    width: 70%;
-    margin-left: 15%;
-    margin-top: rem;
+    width: 78%;
+    margin-left: 12%;
+    margin-top: 3rem;
 }
 
 .container-img-desk {
@@ -801,6 +801,9 @@ header .menu .btn-inicio {
     nav {
         width: 100%;
     }
+    .menu-hamburguesa {
+        width: 100%;
+    }
     .bg-menu {
         background-color: #383A37;
     }
@@ -817,8 +820,9 @@ header .menu .btn-inicio {
         border-radius: 4px;
         height: 39px;
         font-size: 18px;
-        /* padding: 10px; */
+        /* padding-left: 10px; */
         border-color: #383A37 !important;
+        margin-left: 50% !important;
     }
     .fondo-item {
         background-color: #383A37;
@@ -890,6 +894,12 @@ header .menu .btn-inicio {
     }
 }
 
+@media (max-width: 460px) {
+    .botonmenu {
+        margin-left: 0% !important;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     /*HEADER*/
     .logo-navbar {
@@ -902,9 +912,9 @@ header .menu .btn-inicio {
         display: block;
     }
     /*SECCION 3 */
-    .titulo-seccion-3 {
-        font-size: 30px !important;
-        width: 90% !important;
+    .container-titulo-sec3>img {
+        width: 100% !important;
+        margin-left: 0%;
     }
     .oficinas,
     .departamentos,
