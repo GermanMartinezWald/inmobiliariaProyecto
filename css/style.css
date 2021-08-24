@@ -1,13 +1,13 @@
 /*HEADER*/
 
-.carousel-cont {
-    position: relative;
-    bottom: 35%;
-    z-index: -1;
+.carrusel-mob {
+    display: none;
 }
 
-.carousel-cont img {
-    filter: brightness(70%);
+.carousel-cont {
+    position: relative;
+    bottom: 20%;
+    z-index: -1;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 .logo-header {
     width: 13%;
     margin-top: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 5rem
 }
 
 header .menu {
@@ -42,8 +42,8 @@ header .menu a {
 }
 
 header .menu .btn-inicio {
-    padding: 7px;
-    width: 130px;
+    padding: 7px 15px;
+    width: 140px !important;
 }
 
 
@@ -323,12 +323,10 @@ header .menu .btn-inicio {
     height: auto;
 }
 
-.titulo-seccion-3 {
-    margin-left: 18%;
-    text-shadow: 1px 1px 2px black;
-    font-size: 50px;
-    font-weight: 700;
-    z-index: 10;
+.container-titulo-sec3>img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: rem;
 }
 
 .container-img-desk {
@@ -405,6 +403,12 @@ header .menu .btn-inicio {
 }
 
 @media (max-width: 950px) {
+    /*HEADER*/
+    .carousel-cont {
+        position: relative;
+        bottom: 25%;
+    }
+    /*Seccion 3*/
     .container-img-desk {
         display: none;
     }
@@ -658,7 +662,7 @@ header .menu .btn-inicio {
     font-size: 2rem;
     font-weight: 700;
     margin-left: 16%;
-    margin-top: 5%;
+    margin-top: 8%;
     line-height: 35px;
     letter-spacing: 1px;
 }
@@ -695,6 +699,10 @@ header .menu .btn-inicio {
 
 @media only screen and (max-width: 1024px) {
     /*HEADER*/
+    .logo-header {
+        width: 15% !important;
+        margin-left: 2rem !important;
+    }
     header .menu .btn {
         width: 70px;
         font-size: 12px;
@@ -715,7 +723,11 @@ header .menu .btn-inicio {
 @media only screen and (max-width: 768px) {
     /*header*/
     .logo-header {
-        width: 13% !important;
+        width: 15% !important;
+        margin-left: 1.2rem;
+    }
+    header .menu {
+        margin-top: 2.2rem;
     }
     header .menu a {
         font-size: medium !important;
@@ -725,11 +737,6 @@ header .menu .btn-inicio {
         font-size: 12px;
     }
     /*ENCONTRA TU PROPIEDAD*/
-    /* .titulo-seccion-3 {
-            font-size: large !important;
-            text-align: center;
-            margin-left: 5%;
-        }*/
     .oficinas,
     .departamentos,
     .comercial,
@@ -749,12 +756,12 @@ header .menu .btn-inicio {
 }
 
 
-/*MENU MOBILE*/
+/*MENU MOBILE Media query*/
 
 @media (min-width: 320px) and (max-width: 667px) {
     .menu-mobile {
-        /* position: fixed;
-            z-index: 5; */
+        position: fixed;
+        z-index: 1;
     }
     .carousel-cont {
         position: relative;
@@ -770,6 +777,9 @@ header .menu .btn-inicio {
     .navbar-toggler:active {
         outline: none !important;
         box-shadow: none !important;
+    }
+    .logo-navbar {
+        width: 150px;
     }
     .botonmenu {
         color: white !important;
@@ -813,6 +823,12 @@ header .menu .btn-inicio {
     .menu-desk {
         display: none;
     }
+    div.row {
+        margin-right: 0px;
+    }
+    div.container-fluid {
+        padding-right: 0px;
+    }
 }
 
 @media (min-width: 668px) {
@@ -827,6 +843,10 @@ header .menu .btn-inicio {
         bottom: 0%;
     }
     /*SECCION 3*/
+    .titulo-seccion-3 {
+        font-size: 40px !important;
+        width: 70%;
+    }
     .container-img-mob>div {
         width: 70% !important;
     }
@@ -840,9 +860,17 @@ header .menu .btn-inicio {
 }
 
 @media only screen and (max-width: 320px) {
+    /*HEADER*/
+    .carrusel-desk {
+        display: none;
+    }
+    .carrusel-mob {
+        display: block;
+    }
     /*SECCION 3 */
     .titulo-seccion-3 {
-        font-size: 1em !important;
+        font-size: 30px !important;
+        width: 90% !important;
     }
     .oficinas,
     .departamentos,
