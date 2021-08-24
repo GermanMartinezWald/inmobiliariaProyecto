@@ -797,6 +797,7 @@ header .menu .btn-inicio {
     .carousel-cont {
         position: relative;
         bottom: 0%;
+        margin-top: 80px;
     }
     nav {
         width: 100%;
@@ -870,13 +871,10 @@ header .menu .btn-inicio {
     .menu-mobile {
         display: none;
     }
+    /*  */
 }
 
 @media only screen and (max-width: 640px) {
-    .carousel-cont {
-        position: relative;
-        bottom: 0%;
-    }
     /*SECCION 3*/
     .titulo-seccion-3 {
         font-size: 40px !important;
@@ -895,16 +893,23 @@ header .menu .btn-inicio {
 }
 
 @media (max-width: 460px) {
+    .carousel-cont {
+        margin-top: 60px;
+    }
     .botonmenu {
-        margin-left: 0% !important;
+        margin-left: 40% !important;
+    }
+    .bg-menu {
+        height: 70px !important;
+    }
+    .logo-navbar {
+        width: 100px;
+        margin-left: 10%;
     }
 }
 
 @media only screen and (max-width: 320px) {
     /*HEADER*/
-    .logo-navbar {
-        width: 130px;
-    }
     .carrusel-desk {
         display: none;
     }
