@@ -30,7 +30,6 @@
     }
     
     .logo-header {
-        width: 13%;
         margin-top: 1.5rem;
         margin-left: 3.8rem
     }
@@ -54,12 +53,16 @@
     }
     
     .shawdow {
-        text-shadow: 1px 1px 4px black;
+        text-shadow: 1px 1px 2px black;
     }
     
     header .menu .btn-inicio {
-        padding: 7px 15px;
-        width: 140px !important;
+        padding: 10px 25px;
+        width: 170px !important;
+        border-radius: 54px !important;
+        border: none;
+        font-size: medium !important;
+        color: #FFFFFF;
     }
     /*FIN HEADER*/
     /* Seccion 2 "Queres hacer una llamada rapida?" */
@@ -404,7 +407,7 @@
         -moz-transition: all 500ms ease-in-out;
         -ms-transition: all 500ms ease-in-out;
         -o-transition: all 500ms ease-in-out;
-        filter: brightness(60%);
+        filter: brightness(80%);
         position: relative;
     }
     
@@ -443,22 +446,22 @@
             margin-top: 50px;
         }
         .casas {
-            background-image: url("../img/casas.jpg");
+            background-image: url("../img/propiedades\ -\ casas-01.jpg");
         }
         .departamentos {
-            background-image: url("../img/departamentos.jpg");
+            background-image: url("../img/propiedades\ -\ departamentos-01.jpg");
         }
         .oficinas {
-            background-image: url("../img/oficinas.jpg");
+            background-image: url("../img/propiedades\ -\ oficinas-01.jpg");
         }
         .comercial {
-            background-image: url("../img/comercios.jpg");
+            background-image: url("../img/propiedades\ -\ locales-01.jpg");
         }
         .terrenos {
-            background-image: url("../img/terrenos.jpg");
+            background-image: url("../img/propiedades\ -\ terrenos-01.jpg");
         }
         .industrial {
-            background-image: url("../img/industrial.jpg");
+            background-image: url("../img/propiedades\ -\ industrial-01.jpg");
         }
         .oficinas,
         .departamentos,
@@ -488,7 +491,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.2);
         }
         .container-img-mob>div>p {
             font-size: 45px;
@@ -732,51 +735,72 @@
     
     .seccion-form {
         background-color: rgba(115, 123, 76, 0.57);
-        height: 90vh;
+        height: auto;
+        padding-bottom: 3%;
     }
     
     .sec-form-img {
-        height: auto;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .card{
+        height: 63%;
+        width:42%;
+        border-radius: 10%;
+        box-shadow: 1px 1px 3px grey;
+    }
+
+    .posicion-1{
+        margin-left: 12%;
+        margin-top: 7%;
+    }
+
+    .posicion-2{
+        margin-top: 30%;
+        margin-left: -8%;
     }
     
-    .img-form {
-        width: 60%;
-        margin-left: 27%;
+    .card>img{
+        background-color: black;
+        width: 90%;
+        height: 75%;
+        margin-left: 5%;
+        margin-top: 7%;
+        
     }
     
     .texto-form {
-        width: 90%;
+        width: 87%;
         font-size: 1.7rem;
         font-family: "poppins-bold";
-        margin-left: 5%;
-        margin-top: 8%;
-        line-height: 40px;
-        letter-spacing: 1px;
+        text-align: center;
     }
     
     .sec-form {
-        display: flex;
+        padding-top: 5%;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 5%;
+        margin-bottom: 5%; */
     }
     
     .sec-form input,
     .sec-form textarea {
-        width: 80%;
+        width: 70%;
         margin-top: 5%;
-        box-shadow: 1px 1px 4px rgb(34, 33, 33);
+        margin-left: 10%;
+        box-shadow: 1px 1px 2px rgb(34, 33, 33);
         font-family: 'Poppins', sans-serif;
+
     }
     
     .sec-form input[type="submit"] {
         width: 30%;
-        height: 40px;
-        font-size: medium;
+        height: 50px;
+        margin-left: 30%;
+        font-size: small;
         font-family: "poppins-bold";
         border-radius: 54px;
         background-color: #D05A57;
@@ -993,7 +1017,7 @@
         }
     }
     
-    @media (max-width: 460px) {
+    @media (max-width: 480px) {
         /*Header*/
         .carousel-cont {
             margin-top: 60px;
@@ -1006,9 +1030,18 @@
         }
         .logo-navbar {
             width: 90px;
-            margin-left: 10%;
+            margin-left: 15%;
         }
         /*Form menu*/
+        .sec-form-img{
+            display: none;
+        }
+        .sec-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .sec-form input[type="submit"] {
             width: 50%;
         }
