@@ -299,7 +299,7 @@
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 223px !important;
             height: 46px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -512,6 +512,9 @@
     /* Seccion 4 "Parques industriales que comercializamos" */
     
     @media (min-width: 320px) and (max-width: 667px) {
+        .seccion-parques-desktop{
+            display: none;
+        }
         .h2-parques {
             display: none;
         }
@@ -582,6 +585,9 @@
     }
 
     @media (min-width: 668px) and (max-width: 1099px) {
+        .seccion-parques-desktop{
+            display: none;
+        }
         .h2-parques {
             display: none;
         }
@@ -1163,8 +1169,8 @@
     }
     
     .footer-caja-central {
-        border-left: 1px solid #CCA465;
-        border-right: 1px solid #CCA465;
+        border-left: 1px solid #737B4C;
+        border-right: 1px solid #737B4C;
     }
     
     .pie-de-pagina {
@@ -1175,7 +1181,7 @@
     
     .krak {
         text-decoration: none;
-        color: #CCA465 !important;
+        color: #737B4C !important;
         font-size: 15px;
     }
     
@@ -1250,7 +1256,7 @@
         }
         .krak {
             text-decoration: none;
-            color: #CCA465 !important;
+            color: #737B4C !important;
             font-size: 14px;
         }
         .krak:hover {
@@ -1324,7 +1330,7 @@
         }
         .krak {
             text-decoration: none;
-            color: #CCA465 !important;
+            color: #737B4C !important;
             font-size: 11px;
         }
         .krak:hover {
