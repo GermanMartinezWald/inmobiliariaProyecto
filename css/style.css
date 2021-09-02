@@ -1,4 +1,9 @@
-    @font-face {
+html {
+    line-height: 1.15;
+  
+    -webkit-text-size-adjust: 100%;
+     }
+@font-face {
         font-family: "poppins-semibold";
         src: url("../fonts/Poppins-SemiBold.ttf");
         font-weight: normal;
@@ -956,7 +961,7 @@
         }
         .nav-link-bg-color {
             background-color: #D05A57;
-            border-radius: 10px;
+            border-radius:54px;
             font-size: 20px;
             font-weight: bold;
         }
@@ -1042,10 +1047,29 @@
             justify-content: center;
             align-items: center;
         }
+        .sec-form input,
+        .sec-form textarea {
+            width: 90%;
+            margin-left: 0;    
+        }
+        
+        .sec-form textarea{
+            height: 100px;
+        }
         .sec-form input[type="submit"] {
             width: 50%;
+            height: 40px;
+            margin-left: 0;
+            margin-top: 10%;
+        }
+
+        .espacio{
+            margin-top: 10%;
+           box-shadow:1px 1px 4px rgba(115, 123, 76, 0.57) !important;
         }
         .texto-form {
+            width: 100%;
+            margin-left: 0;
             font-size: 17px;
         }
     }
