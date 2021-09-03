@@ -1,8 +1,11 @@
-html {
-    line-height: 1.15;
-  
-    -webkit-text-size-adjust: 100%;
-     }
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0;
+    padding-left:0;
+ }
 @font-face {
         font-family: "poppins-semibold";
         src: url("../fonts/Poppins-SemiBold.ttf");
@@ -52,13 +55,13 @@ html {
     header .menu a {
         color: #E6E6E6 !important;
         font-size: large !important;
-        font-weight: 600 !important;
+        font-weight: 700 !important;
         text-decoration: none;
         margin: 15px;
     }
     
     .shawdow {
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 1px black;
     }
     
     header .menu .btn-inicio {
@@ -755,34 +758,16 @@ html {
     
     .sec-form-img {
         display: flex;
-        flex-direction: row;
+       align-items: center;
+       justify-content: center;
     }
 
-    .card{
-        height: 63%;
-        width:42%;
-        border-radius: 10%;
-        box-shadow: 1px 1px 3px grey;
+    .sec-form-img>img{
+         width: 70%;
+         margin-top: 5%;
+         margin-left: 5%;
     }
 
-    .posicion-1{
-        margin-left: 12%;
-        margin-top: 7%;
-    }
-
-    .posicion-2{
-        margin-top: 30%;
-        margin-left: -8%;
-    }
-    
-    .card>img{
-        background-color: black;
-        width: 90%;
-        height: 75%;
-        margin-left: 5%;
-        margin-top: 7%;
-        
-    }
     
     .texto-form {
         width: 87%;
@@ -863,23 +848,12 @@ html {
             line-height: 30px;
         }
     }
+
     
-    @media only screen and (max-width: 767px) {
+    
+    @media (max-width: 767px) {
         /*header*/
-        .logo-header {
-            width: 15% !important;
-            margin-left: 1.2rem;
-        }
-        header .menu {
-            margin-top: 2.2rem;
-        }
-        header .menu a {
-            font-size: medium !important;
-        }
-        header .menu .btn {
-            width: 70px;
-            font-size: 12px;
-        }
+    
         /*ENCONTRA TU PROPIEDAD*/
         .oficinas,
         .departamentos,
@@ -895,15 +869,15 @@ html {
         }
         .texto-form {
             width: 90%;
-            margin-top: 10%;
+            margin-top: 5%;
             margin-left: 15%;
             text-align: center;
             font-size: 18px;
             line-height: 25px;
         }
-        .img-form {
-            margin-left: 25%;
-        }
+        .sec-form-img>img{
+            display: none;
+       }
         .espacio {
             width: 75%;
             height: 35px;
@@ -914,9 +888,57 @@ html {
         .img-form {
             display: none;
         }
+        .sec-form {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec-form input,
+        .sec-form textarea {
+            width: 60%;
+            margin-left: 0;    
+        }
+
+        .sec-form input[type="submit"] {
+            width: 30%;
+            height: 40px;
+            margin-left: 0;
+            margin-top: 10%;
+        }
+
         .texto-form {
             font-size: 1.3rem;
-            margin-left: 5%;
+            margin-left: 0;
+            width: 65%;
+        }
+    }
+
+    @media (max-width: 763px){
+        .carousel-cont {
+            position: relative;
+            bottom: 25%;
+            z-index: -1;
+        }
+
+        .logo-header{
+            width: 90px;
+            height: 50px;
+            margin-top: ;
+        }
+        header .menu{
+            margin-top: 2rem;
+        }
+        header .menu a {
+            font-size: small !important;
+            font-weight: 700 !important;
+            margin: 10px;
+        }
+
+        header .menu .btn-inicio{
+            padding: 7px 10px;
+            font-size: small !important;
         }
     }
     /*MENU MOBILE Media query*/
@@ -1027,11 +1049,19 @@ html {
             display: none;
         }
         .texto-form {
+            width: 85%;
             line-height: 25px;
         }
     }
     
     @media (max-width: 480px) {
+         /*HEADER*/
+         .carrusel-desk {
+            display: none;
+        }
+        .carrusel-mob {
+            display: block;
+        }
         /*Header*/
         .carousel-cont {
             margin-top: 60px;
@@ -1047,9 +1077,7 @@ html {
             margin-left: 15%;
         }
         /*Form menu*/
-        .sec-form-img{
-            display: none;
-        }
+    
         .sec-form {
             display: flex;
             flex-direction: column;
@@ -1059,7 +1087,7 @@ html {
         .sec-form input,
         .sec-form textarea {
             width: 90%;
-            margin-left: 0;    
+            margin-left: 3.5%;    
         }
         
         .sec-form textarea{
@@ -1077,20 +1105,19 @@ html {
            box-shadow:1px 1px 4px rgba(115, 123, 76, 0.57) !important;
         }
         .texto-form {
-            width: 100%;
+            width: 85%;
             margin-left: 0;
             font-size: 17px;
         }
     }
+    @media (max-width:395px){
+        .texto-form{
+            width: 90%;
+            font-size: 16px;
+        }
+    }
     
     @media only screen and (max-width: 320px) {
-        /*HEADER*/
-        .carrusel-desk {
-            display: none;
-        }
-        .carrusel-mob {
-            display: block;
-        }
         /*SECCION 3 */
         .container-titulo-sec3>img {
             width: 100% !important;
