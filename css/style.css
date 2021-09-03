@@ -104,7 +104,7 @@ div.row{
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 223px !important;
             height: 46px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -169,7 +169,7 @@ div.row{
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 223px !important;
             height: 46px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -238,7 +238,7 @@ div.row{
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 223px !important;
             height: 46px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -539,6 +539,7 @@ div.row{
             margin-left: 5%;
             margin-right: 5%;
             border-radius: 10px;
+            margin-bottom: 130px;
         }
         .img-mobile {
             width: 100%;
@@ -556,8 +557,8 @@ div.row{
             font-family: 'Poppins', sans-serif;
             font-size: 14px;
             margin-top: 20px;
-            margin-left: 2%;
-            margin-right: 2%;
+            margin-left: 8%;
+            margin-right: 8%;
             line-height: 22px;
         }
         .boton-parques {
@@ -567,7 +568,7 @@ div.row{
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 130px !important;
             height: 40px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -613,6 +614,7 @@ div.row{
             margin-left: 5%;
             margin-right: 5%;
             border-radius: 10px;
+            margin-bottom: 130px;
         }
         .img-mobile {
             width: 100%;
@@ -641,7 +643,7 @@ div.row{
             background-color: #D05A57 !important;
             color: white !important;
             outline: none !important;
-            border-radius: 10px !important;
+            border-radius: 54px !important;
             width: 130px !important;
             height: 40px !important;
             /* box-shadow: 0px 5px 0px rgb(0, 0, 0, 0.25); */
@@ -925,7 +927,7 @@ div.row{
         .logo-header{
             width: 90px;
             height: 50px;
-            margin-top: ;
+
         }
         header .menu{
             margin-top: 2rem;
