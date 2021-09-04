@@ -420,6 +420,9 @@ div.row{
         margin-top: 3rem;
     }
     
+   .container-img-desk a{
+        text-decoration: none;
+    }
     .container-img-desk {
         display: flex;
         flex-direction: row;
@@ -514,6 +517,7 @@ div.row{
             height: auto;
             margin-top: 50px;
         }
+
         .casas {
             background-image: url("../img/propiedades\ -\ casas-01.jpg");
         }
@@ -562,18 +566,19 @@ div.row{
             right: 0;
             background-color: rgba(0, 0, 0, 0.2);
         }
-        .container-img-mob>div>p {
+        .container-img-mob>a>p {
             font-size: 45px;
             font-weight: 700;
             color: #FFFFFF;
             text-shadow: 1px 1px 2px black;
             position: relative;
         }
-        .container-img-mob>div {
+        .container-img-mob>a {
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 20px 10px;
+            text-decoration: none;
             box-shadow: 1px 2px 5px rgb(27, 25, 25);
         }
     }
@@ -780,7 +785,7 @@ div.row{
 
         .botones-polo {
             font-family: poppins-semibold;
-            font-size: medium !important;
+            font-size: large !important;
             margin-top: 20px;
             margin-bottom: 30px;
             background-color: #D05A57 !important;
@@ -859,10 +864,11 @@ div.row{
     }
     
     .sec-form input[type="submit"] {
-        width: 30%;
-        height: 50px;
+        width: 32%;
+        height: 46px;
         margin-left: 30%;
-        font-size: small;
+        font-size: large !important;
+        font-weight: bolder;
         font-family: "poppins-bold";
         border-radius: 54px;
         background-color: #D05A57;
