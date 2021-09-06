@@ -6,6 +6,11 @@ div.row{
     padding-right: 0;
     padding-left:0;
  }
+/*libreria wow*/
+ .wow { 
+     visibility: hidden; 
+    }
+
 @font-face {
         font-family: "poppins-semibold";
         src: url("../fonts/Poppins-SemiBold.ttf");
@@ -567,7 +572,7 @@ div.row{
             background-color: rgba(0, 0, 0, 0.2);
         }
         .container-img-mob>a>p {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 700;
             color: #FFFFFF;
             text-shadow: 1px 1px 2px black;
@@ -577,7 +582,6 @@ div.row{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 20px 10px;
             text-decoration: none;
             box-shadow: 1px 2px 5px rgb(27, 25, 25);
         }
@@ -1131,7 +1135,6 @@ div.row{
         .carrusel-mob {
             display: block;
         }
-        /*Header*/
         .carousel-cont {
             margin-top: 60px;
         }
@@ -1145,6 +1148,11 @@ div.row{
             width: 90px;
             margin-left: 15%;
         }
+       /* Encontra tu propiedad
+
+        .container-img-mob>div>p {
+            font-size: 1.1em !important;
+        } */
         /*Form menu*/
     
         .sec-form {
@@ -1179,12 +1187,20 @@ div.row{
             font-size: 17px;
         }
     }
-    @media (max-width:395px){
+    @media (max-width:395px){          
+        /*form*/
         .texto-form{
             width: 90%;
             font-size: 16px;
         }
     }
+    /* @media (max-width:380){
+        /*Encontra tu propiedad*/
+
+        /* .container-img-mob>a>p {
+            font-size: 12px !important;
+        }
+    } */ 
     
     @media only screen and (max-width: 320px) {
         /*SECCION 3 */
