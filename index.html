@@ -256,11 +256,13 @@
                     <p class="texto-form">
                         ¿Querés vender o alquilar tu propiedad? Dejanos tus datos y agendamos una tasación sin cargo.
                     </p>
-                    <input type="text" class="form-control espacio borde-radio" id="nombre" placeholder="Nombre completo">
-                    <input type="email" class="form-control espacio borde-radio" id="email" placeholder="Email">
-                    <input type="number" class="form-control espacio borde-radio" id="telefono" placeholder="Teléfono">
-                    <textarea class="form-control espacio borde-radio-text" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                    <form action="" method="POST">
+                    <input type="text" name="nombre" class="form-control espacio borde-radio" id="nombre" placeholder="Nombre completo">
+                    <input type="email" name="email" class="form-control espacio borde-radio" id="email" placeholder="Email">
+                    <input type="number" name="telefono" class="form-control espacio borde-radio" id="telefono" placeholder="Teléfono">
+                    <textarea name="mensaje" class="form-control espacio borde-radio-text" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
                     <input type="submit" class="btn-form espacio" value="Enviar">
+                    </form>
                 </div>
             </div>
         </div>
