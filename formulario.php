@@ -1,5 +1,5 @@
 <?php
-$destino = "info@krak.com.ar"; // Email del Sitio Web
+$destino = "gmartinezwald@gmail.com"; // Email del Sitio Web info@krak.com.ar
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
 $telefono = $_POST["telefono"];
