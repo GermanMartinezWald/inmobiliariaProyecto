@@ -1286,33 +1286,42 @@ div.row{
     .color-fondo-gracias{
         width: 100%;
         height: 100%;
-        background-image: url(../img/polo-desktop.jpg);
+        background-image: url(../img/ilustraciongracias.png);
         background-size: cover;
+    }
+
+    .parrafo-gracias{
+        width: 60%;
+        font-family: poppins-semibold;
+        color: #000;
+        font-size: 140%;
+        line-height: 40px;
+     
     }
 
     .centrado-boton-gracias{
         display: flex;
         justify-content: center;
-        padding-bottom: 30%;
-    }
-
-    .parrafo-gracias{
-        width: 80%;
-        font-family: poppins-semibold;
-        color: #000;
-        font-size: 140%;
-        line-height: 50px;
-        padding-top: 5%; 
+        padding-bottom: 40%;
     }
 
     @media (min-width: 320px) and (max-width: 667px){
+        .color-fondo-gracias{
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/ilustraciongracias.png);
+            background-size: cover;
+            margin-top: 45%;
+        }
+
         .parrafo-gracias{
-            width: 80%;
+            width: 100%;
             font-family: poppins-semibold;
             color: #000;
-            font-size: 140%;
-            line-height: 20px;
-            padding-top: 5%; 
+            font-size: 17px;
+            line-height: 23px;
+            margin-top: -35% !important; 
+            position: relative;
         }
 
         .centrado-boton-gracias{
