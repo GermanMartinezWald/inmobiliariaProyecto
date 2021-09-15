@@ -485,7 +485,8 @@ div.row{
         -moz-transition: all 500ms ease-in-out;
         -ms-transition: all 500ms ease-in-out;
         -o-transition: all 500ms ease-in-out;
-        filter: brightness(80%);
+        -webkit-filter: brightness(80%);
+                filter: brightness(80%);
         position: relative;
     }
     
