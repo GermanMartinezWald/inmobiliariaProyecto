@@ -28,6 +28,7 @@ div.row{
     
     .carrusel-mob {
         display: none;
+        overflow: hidden;
     }
     
     .carousel-cont {
